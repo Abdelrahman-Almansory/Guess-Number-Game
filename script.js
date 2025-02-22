@@ -13,6 +13,7 @@ document.querySelector(".check").addEventListener("click", function () {
     document.querySelector(".message").innerHTML = "Correct Guess! :)";
     document.querySelector(".message").style.color = "#0ff5a8";
     document.querySelector("body").style.backgroundColor = "#0ff5a8";
+    document.querySelector(".guess").innerHTML = secretNumber;
     if (score > highscore) {
       highscore = score;
       document.querySelector(".highscore").innerHTML = highscore;
