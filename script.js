@@ -39,6 +39,7 @@ document.querySelector(".again").addEventListener("click", function () {
   document.querySelector(".message").innerHTML = "Start guessing...";
   document.querySelector(".message").style.color = "#d1d5db";
   document.querySelector(".input").value = "";
+  document.querySelector(".guess").innerHTML = "?";
   document.querySelector("body").style.backgroundColor = "#111827";
 });
 
@@ -50,5 +51,6 @@ document.querySelector(".reset").addEventListener("click", function () {
   document.querySelector(".message").style.color = "#d1d5db";
   document.querySelector(".input").value = "";
   document.querySelector(".highscore").innerHTML = 0;
+  document.querySelector(".guess").innerHTML = "?";
   document.querySelector("body").style.backgroundColor = "#111827";
 });
